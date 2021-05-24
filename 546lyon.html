@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            .myDiv {
+            border: 1px outset rgb(59, 53, 53);
+            background-color: rgb(128, 126, 126);    
+            text-align: center;
+            
+            
+          }
+            .column {
+            float: left;
+            width: 32%;
+            padding: 5px;
+            }
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+            img{
+                border-radius: 35%;
+            }
+        </style>
+        
+        <title>546 Lyon Street N</title>
+        <h1 style="text-align: center;" >
+            Welcome to 546 Lyon Street N!
+        </h1>
+    </head>
+    <body>
+    
+        <div class="myDiv">
+           <h3>This unique artist's loft is centrally located, just 1 block to the metro and 3 blocks to shopping, restaurants & cafes.</h3> 
+            <h3>Oversized windows fill the open space with plenty of morning & afternoon light. Enjoy the beautiful view of downtown at night.</h3>
+            <h3>Kitchen has stainless steel appliances & plenty of counter space.</h3>
+            <h3> This bustling neighborhood is bike-friendly and the building offers 24-hour security.</h3>
+           
+
+        </div>
+        <div class="row">
+            <div class="column">
+                <a href="https://www.google.com/maps/place/546+Lyon+St+N,+Ottawa,+ON+K1R+7S5/@45.4081967,-75.6960849,3a,75y,
+                237.17h,90t/data=!3m6!1e1!3m4!1ssKoqL1oOxCWqxiW26G5QRw!2e0!7i16384!8i8192!4m5!3m4!1s0x4cce05b15300924b:0xc56cdd30db51438b!8m2!3d45.
+                4081387!4d-75.6961819"><img src="lyon.jpg" alt="Armenia Forest" style="width: 100%"></a>
+            </div>
+            <div class="column">
+                <img src="backlyon.jpg" alt="back" style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="streetlyon.jpg" alt="street view" style="width: 100%">
+            </div>
+        </div>
+        <form name="Contact information">
+            <input type="text" placeholder="Fullname" name="name">
+            <input type="submit">
+        </form>
+        <form>
+            <input type="text" placeholder="email" name="email">
+            <input type="submit">
+        </form>
+        <form>
+            <input type="tel" placeholder="telephone #" name="phone">
+            <input type="submit">
+        </form>
+        <form> 
+            <input type="text" placeholder="Address" name="Address">
+            <input type="submit">
+        </form>
+    </body>
+</html>
